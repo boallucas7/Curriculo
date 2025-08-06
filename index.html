@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculo</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header id="nome">Nome</header>
+
+    <main class="main-layout">
+        <aside class="coluna-esquerda">
+            <div class="foto">
+                <img id="foto" alt="foto"/>
+            </div>
+            <div class="contato">
+                <h2>Contato</h2>
+                <p id="nascimento">Data Nascimento:</p>
+                <p id="email">E-mail:</p>
+                <p id="telefone">Telefone:</p>
+                <p><a id="linkedin" target="_blank">LinkedIn</a></p>
+                <p><a id="github" target="_blank">GitHub</a></p>
+            </div>
+            <div class="conhecimentos">
+                <h2>Conhecimentos</h2>
+                <div id="conhecimentos"></div>
+            </div>
+        </aside>
+
+        <section class="coluna-direita">
+            <div class="experiencias">
+                <h2>Experiências Profissionais</h2>
+                <div id="experiencias"></div>
+            </div>
+            <div class="formacao">
+                <h2>Formação Acadêmicas</h2>
+                <div id="formacao"></div>
+            </div>
+        </section>
+    </main>
+
+    <button onclick="carregarDados()">Carregar Dados</button>
+
+    <script src="script.js"></script>
+</body>
+</html>

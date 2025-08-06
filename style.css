@@ -1,0 +1,84 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(255, 240, 29); /* rgb(211, 211, 211) fundo de cor clara */
+    color: rgb(255, 255, 255);
+}
+
+/* Nome no topo, centralizado */
+#nome {
+    background-color: #f31f1f;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 20px;
+    border-bottom: 5px solid black;
+}
+
+/* Layout principal dividido em duas colunas */
+.main-layout {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+/* Coluna esquerda (foto, info, conhecimentos) */
+.coluna-esquerda {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Coluna direita (experiências, formação) */
+.coluna-direita {
+    flex-grow: 1; /* Para ocupar o restante do espaço */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+/* Blocos com fundo azul e bordas pretas */
+.foto, .contato, .conhecimentos, .experiencias, .formacao {
+    background-color: #4dce1a;
+    padding: 15px;
+    border: 5px solid black;
+}
+
+/* Foto */
+.foto {
+    aspect-ratio: 1 / 1; /* Mantém a proporção do bloco de foto na imagem */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Garante que a imagem preencha todo o contêiner de foto */
+.foto img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+/*
+.contato, .conhecimentos {
+    flex-grow: 1; /* Para que os blocos de contato e conhecimentos ocupem o espaço restante */
+
+/* Títulos internos */
+h2 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+/* Lista sem marcadores */
+ul {
+    list-style: none;
+    margin-left: 15px;
+}

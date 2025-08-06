@@ -1,0 +1,54 @@
+{
+  "nome": "Lucas Freire de Souza",
+  "foto": "assets/img/lucasfreire.jpg",
+  "nascimento": "Data Nascimento: 26/12/2002",
+  "email": "E-mail: lucasfreiresouza@email.com",
+  "telefone": "Telefone: (11) 98922-9639",
+  "linkedin": "https://www.linkedin.com/in/lucas-freire-de-souza-7682b11a1/?trk=opento_sprofile_pfeditor",
+  "github": "https://github.com/boallucas7",
+  "conhecimentos": ["HTML5", "CSS", "JavaScript", "Git","Excel","Word","PowerBI","Redes Wireless","MySQL"],
+  "experiencias": [
+    {
+      "cargo": "Técnico Eletrônico",
+      "empresa": "Grupo AMCS",
+      "descricao": "Realizava manutenção de equipamentos eletrônicos, e atuei um pouco no estoque, recebimento de mercadorias, separação, conferencia, despache.",
+      "inicio": "06/2022",
+      "termino": "09/2023"
+    },
+    {
+      "cargo": "Auxiliar de Estoque",
+      "empresa": "J. Macedo Eletrônica",
+      "descricao": "Auxiliava na organização do estoque, despache e recebimento de mercadorias, conferencia de notas e planilhas.",
+      "inicio": "02/2022",
+      "termino": "05/2023"
+    },
+    {
+      "cargo": "Técnico em informática",
+      "empresa": "Heletron Telecomunicacoes LTDA",
+      "descricao": "Desempenho atividades de suporte técnico e infraestrutura diretamente no ambiente corporativo da Bayer.",
+      "inicio": "03/2025",
+      "termino": "Momento"
+    },
+    {
+      "cargo": "Telemarketer",
+      "empresa": "CREDITCASH",
+      "descricao": "Atuei na linha de cobrança das lojas RIACHUELO pelo grupo CreditCash, atendendo clientes diariamente com intuito de resolver seus débitos com a empresa, havia muitas metas a serem batidas diariamente.",
+      "inicio": "11/2021",
+      "termino": "02/2022"
+    },
+    {
+      "cargo": "Auxiliar de ferramentaria",
+      "empresa": "Wilson Tool Brasil - Milling Ferramentas",
+      "descricao": "Era auxiliar de ferramentaria, controle de tornos C.N.C, centros de usinagem C.N.C entre outras máquinas.",
+      "inicio": "07/2021",
+      "termino": "10/2021"
+    }
+  ],
+  "formacao": [
+    {
+      "curso": "Tecnologia em Análise e Desenvolvimento de Sistemas",
+      "instituicao": "Centro Universitário SENAC",
+      "termino": "Dezembro de 2026"
+    }
+  ]
+}
